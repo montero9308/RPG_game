@@ -1,0 +1,20 @@
+[project]
+name = "rpg-game"
+version = "0.1.0"
+description = "Esqueleto de videojuego RPG en Python con OpenGL."
+requires-python = ">=3.10"
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "pyglet>=2.0.0",
+]
+
+[project.optional-dependencies]
+tools = [
+    "pygame>=2.5.0",
+    "PyQt6>=6.6.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0.0"]
+build-backend = "setuptools.build_meta"
